@@ -1,0 +1,79 @@
+body {
+    margin: 0;
+}
+.container {
+    font-family: 'Arimo', sans-serif;
+    width: 740px;
+    margin: 0 auto;
+}
+.location-info {
+    width: 340px;
+}
+.header {
+    display: inline-block;
+    width: 100%;
+}
+h1, h2, h3 {
+    color: #5A5A5A;
+}
+h1 {
+    font-size: 70px;
+    font-weight: 500;
+    margin: 0;
+}
+h2, h3 {
+    font-size: 22px;
+}
+.img {
+    max-width: 140px;
+}
+.weather-info img {
+    width: 100%;
+    display: flex;
+}
+.weather-info {
+    display: flex;
+    justify-content: space-around;
+}
+.weather-info h2 {
+    font-size: 40px;
+}
+.weather-info h2 sup {
+    font-weight: normal;
+    font-size: 22px;
+}
+.weather-info .text-info {
+    color: #ACACAC;
+}
+.day-weather {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 1px solid #A0A0A0;
+    padding-bottom: 20px;
+}
+.day-weather > * {
+    flex: 1;
+}
+.day-weather img {
+    max-width: 70px;
+}
+.day-weather .img {
+    flex: 1.6;
+}
+.day-weather h3 {
+    margin: 0;
+}
+.day-weather .humidity {
+    color: #7F7F7F;
+    text-align: right;
+}
+.min-degree {
+    color: #989898;
+}
+.week-day {
+    color: #656565;
+}
+.day-weather .temp-info {
+    margin-top: auto;
+}
