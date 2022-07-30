@@ -1,0 +1,27 @@
+h1, h2 {
+    text-align: center;
+}
+h1 {
+    font-size: 40px;
+}
+h2 {
+    font-size: 32px;
+}
+h3 {
+    font-size: 20px;
+}
+.videos .video {
+    width: 560px;
+    margin: 20px auto;
+}
+.video iframe,
+.video video {
+    width: 100%;
+    height: 315px;
+}
+.music {
+    display: grid;
+    grid-template-columns: 300px auto;
+    justify-content: center;
+    row-gap: 20px;
+}
